@@ -85,36 +85,6 @@ nav{
     font-weight: 500;
 }
 
-@media (max-width:600px) {
-    main{
-        padding: 2vw 4vw;
-    }
-    nav{
-        height: 10vw;
-    }
-    #nav1{
-        gap:2.5vw;
-    }
-    #nav1 h3{
-        font-size: 3vw;
-        font-weight: 500;
-    }
-    #nav1 img{
-        height: 7vw;
-    }
-    #nav2{
-        display: none;
-    }
-    #nav3{
-        display: flex;
-         gap:3.5vw;
-    }
-    #nav3 i{
-        font-size: 5vw;
-       
-    }
-}
-
 .sec1{
     /* height: 88vh; */
     height: 88%;
@@ -262,8 +232,119 @@ nav{
 }
 
 /* pixels me dene ka fayda hai ki size bada chota nhi hota container me adjust karta hai khudko */
-@media (max-width:1200px) {
+/* @media (max-width:1200px) {
     #left h2{
 font-size: 4vw;
     }
+} */
+@media (max-width:600px) {
+    main{
+        padding: 2vw 4vw;
+    }
+    nav{
+        height: 10vw;
+    }
+    #nav1{
+        gap:2.5vw;
+    }
+    #nav1 h3{
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    #nav1 img{
+        height: 7vw;
+    }
+    #nav2{
+        display: none;
+    }
+    #nav3{
+        display: flex;
+         gap:3.5vw;
+    }
+    #nav3 i{
+        font-size: 5vw;
+       
+    }
+}
+.sec1{
+    flex-direction: column-reverse;
+}
+.sec1 #right{
+    height: 100%;
+    width: 100%;
+}
+#rightp2{
+    max-height: 300px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap:2vw;
+    /* gap:20px; */
+    padding: 1vw;
+    /* padding: 20px; */
+    background-color: var(--anothergrey);
+}
+#rightp2 h4{
+    width: 35vw;
+    /* width: 250px; */
+    /* padding:0.7vw 1.5vw; */
+    padding: 20px 30px;
+    /* font-size: 1.1vw; */
+    font-size: 15px;
+    background-color: #151515;
+}
+.sec1 #left{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    padding-top: 5vw;
+}
+#left h2{
+    font-size: 35px;
+    padding-bottom: 3vw;
+}
+#leftp2 h5{
+    /* font-size: 4vw; */
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    padding: 2vw 4vw;
+}
+#leftp2{
+    height: auto;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    gap:1vw;
+}
+#leftp3 h3{
+    font-size: 8vw;
+}
+#leftp3 #ek{
+    font-size: 6vw;
+}
+#leftp3 #do{
+    font-size: 5vw;
+}
+#leftp3 #tin{
+    font-size: 4vw;
+}
+#leftp3 h6{
+    font-size: 3.5vw;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
+}
+#leftp3 button{
+    font-size: 4.5vw;
+    padding: 2vw 4vw;
+    border-radius: 10px;
+    border: none;
+}
+#leftp3 #h6end{
+    font-size: 3vw;
+    padding-top: 2vw;
 }
