@@ -265,8 +265,7 @@ font-size: 4vw;
         font-size: 5vw;
        
     }
-}
-.sec1{
+    sec1{
     flex-direction: column-reverse;
 }
 .sec1 #right{
@@ -347,4 +346,5 @@ font-size: 4vw;
 #leftp3 #h6end{
     font-size: 3vw;
     padding-top: 2vw;
+}
 }
