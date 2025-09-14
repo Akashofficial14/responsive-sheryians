@@ -281,17 +281,17 @@ font-size: 4vw;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    gap:1vw;
+    gap:2vw;
     /* gap:20px; */
     padding: 1vw;
     /* padding: 20px; */
     background-color: var(--anothergrey);
 }
 #rightp2 h4{
-    width: 42vw;
-    /* width: 150px; */
+    width: 45%;
+    /* width: 250px; */
     /* padding:0.7vw 1.5vw; */
-    padding: 20px 30px;
+    padding: 5px 10px;
     /* font-size: 1.1vw; */
     font-size: 15px;
     background-color: #151515;
@@ -339,6 +339,120 @@ font-size: 4vw;
 }
 #leftp3 button{
     font-size: 4.5vw;
+    padding: 2vw 4vw;
+    border-radius: 10px;
+    border: none;
+}
+#leftp3 #h6end{
+    font-size: 3vw;
+    padding-top: 2vw;
+}
+}
+@media (max-width:850px) {
+    main{
+        padding: 2vw 4vw;
+    }
+    nav{
+        height: 10vw;
+    }
+    #nav1{
+        gap:2vw;
+    }
+    #nav1 h3{
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    #nav1 img{
+        height: 6vw;
+    }
+    nav .together{
+        font-size: 1.6vw;
+    }
+    #nav2{
+        display: flex;
+    }
+    #nav3{
+        display: none;
+         gap:3.5vw;
+    }
+    #nav2 button{
+    padding: 0.8vw 1.8vw;
+    font-size: 1.6vw;
+    border-radius: 5px;
+}
+    .sec1{
+    flex-direction: column-reverse;
+}
+.sec1 #right{
+    height: 100%;
+    width: 100%;
+}
+#rightp2{
+    max-height: 30%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap:2vw;
+    /* gap:20px; */
+    padding: 1vw;
+    /* padding: 20px; */
+    background-color: var(--anothergrey);
+}
+#rightp2 h4{
+    width: 35vw;
+    /* width: 250px; */
+    /* padding:0.7vw 1.5vw; */
+    padding: 20px 30px;
+    /* font-size: 1.1vw; */
+    font-size: 18px;
+    background-color: #151515;
+}
+.sec1 #left{
+    height: 100%;
+    width: 100%;
+    padding-top: 5vw;
+}
+#left h2{
+    font-size: 5vw;
+    padding-bottom: 3vw;
+}
+#leftp2 h5{
+    /* font-size: 4vw; */
+    font-size: 2.5vw;
+    font-weight: 600;
+    border: 2px solid black;
+    padding: 1.5vw 3vw;
+}
+#leftp2{
+    height: auto;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    gap:1vw;
+}
+#leftp3 h3{
+    font-size: 7vw;
+}
+#leftp3 #ek{
+    font-size: 5.8vw;
+}
+#leftp3 #do{
+    font-size: 5vw;
+}
+#leftp3 #tin{
+    font-size: 4.3vw;
+}
+#leftp3 h6{
+    font-size: 3vw;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
+}
+#leftp3 button{
+    font-size: 3.5vw;
     padding: 2vw 4vw;
     border-radius: 10px;
     border: none;
