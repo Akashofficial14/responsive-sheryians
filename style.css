@@ -265,7 +265,7 @@ font-size: 4vw;
         font-size: 5vw;
        
     }
-    sec1{
+    .sec1{
     flex-direction: column-reverse;
 }
 .sec1 #right{
@@ -281,15 +281,15 @@ font-size: 4vw;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    gap:2vw;
+    gap:1vw;
     /* gap:20px; */
     padding: 1vw;
     /* padding: 20px; */
     background-color: var(--anothergrey);
 }
 #rightp2 h4{
-    width: 35vw;
-    /* width: 250px; */
+    width: 42vw;
+    /* width: 150px; */
     /* padding:0.7vw 1.5vw; */
     padding: 20px 30px;
     /* font-size: 1.1vw; */
